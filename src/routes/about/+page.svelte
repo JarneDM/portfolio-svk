@@ -1,11 +1,9 @@
 <script>
-	import Header from "src/routes/header/+page.svelte";
 
 </script>
 
 <main>
-    <Header />
-
+    <h1>About</h1>
 </main>
 
 <style>
@@ -15,4 +13,5 @@
         max-width: 240px;
         margin: 0 auto;
     }
+    
 </style>

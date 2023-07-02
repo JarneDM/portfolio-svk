@@ -1,6 +1,10 @@
 <script>
-	import Header from "./header/+page.svelte";
+	
+    import { goto } from '$app/navigation';
 
+    function routeToPage(route) {
+        goto(route);
+    }
 	/*
 	from belgium
 	why do i love/like front end
@@ -9,7 +13,6 @@
 </script>
 
 <main>
-	<Header />
 	<div class="title">
 		<p>I'm a Flemish self-thaught</p>
 		<h1>Front-end</h1>
@@ -48,8 +51,9 @@
 		font-weight: 100;
 		margin-top: 0;
 		margin-bottom: 0;
-		text-shadow: 5px 10px 8px;
+		text-shadow: 5px 10px 8px grey;
 		font-family: monospace;
+		box-shadow: 0 0;
 	}
 
 	.title h2{
@@ -58,7 +62,7 @@
 		font-size: 4.5em;
 		font-weight: 100;
 		margin-top: 0;
-		text-shadow: 5px 10px 8px;
+		text-shadow: 5px 10px 8px grey;
 		font-family: monospace;
 	}
 
@@ -82,6 +86,7 @@
 		box-shadow: 5px 5px black;
 		cursor: pointer;
 		transition: 500ms;
+		border: 2px solid black;
 	}
 
 	.btn:hover{
@@ -89,6 +94,7 @@
 		color: white;
 		box-shadow: 5px 5px burlywood;
 		transition: 500ms;
+		border: 2px solid burlywood;
 	}
 
 	@media (min-width: 640px) {

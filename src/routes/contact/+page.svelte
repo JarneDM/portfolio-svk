@@ -1,10 +1,8 @@
 <script>
-    import Header from "src/routes/header/+page.svelte";
-
 </script>
 
 <main>
-    <Header />
+    <h1>Contact</h1>
 </main>
 
 <style>
