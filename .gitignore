@@ -8,13 +8,4 @@ node_modules
 !.env.example
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
-.eslintrc.cjs
-.eslintignore
-.prettierrc
-.prettierignore
-package-lock.json
-package.json
-svelte.config.js
-vite.config.js
-static
-.npmrc
+
