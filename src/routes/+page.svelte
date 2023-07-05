@@ -30,7 +30,7 @@
 		  </div>		  
 	</div>
 	<div class="box-content">
-
+		<h1 style="box-shadow: none;">???</h1>
 	</div>
 	
 </main>
