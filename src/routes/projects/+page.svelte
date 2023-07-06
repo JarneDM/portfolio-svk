@@ -1,3 +1,7 @@
+<script>
+    import img from './images/mobile-gen-screen.png';
+</script>
+
 <main>
     <div class="title-projects">
         <h1>Projects</h1>
@@ -6,13 +10,14 @@
         <div class="project first">
             <div class="front-side">
                 <h1 style="font-size: 3em; margin-top: 0.5em;">Quote generator</h1>
-                <hr style="background-color: black; height:2px;">
+                <hr style="background-color: black; height:2px; margin-bottom:0;">
+                <img src={img} style="width: 100%; height:120%; margin-top:0;" alt="quote-generator">
             </div>
             <div class="back-side">
-                <h1 style="font-size: 3em; margin-top: 0.5em; color:white;">Quote generator</h1>
-                <hr style="background-color: white; height:2px;">
-                <p style="color: white; font-size: larger; font-family:monospace;">
-                    The quote generator generates quotes like you guessed. <br>The quotes are mostly from historical figures <br>like Albert Einstein, Socrates, Van Gogh, ... <br>You can visit the quote generator by <br>clicking <a style="color: white;" target="_blank" href="https://quote-generator-jarne.vercel.app/">here!</a>
+                <h1 style="font-size: 3em; margin-top: 0.5em; color:black;">Quote generator</h1>
+                <hr style="background-color: black; height:2px;">
+                <p style="font-size: larger; font-family:monospace;">
+                    The quote generator generates quotes like you guessed. <br><br>The quotes are mostly from historical figures like Albert Einstein, Socrates, Van Gogh, ... <br>You can visit the quote generator by clicking <a style="color: white;" target="_blank" href="https://quote-generator-jarne.vercel.app/">here!</a>
                 </p>
             </div>
         </div>
@@ -86,6 +91,7 @@
         overflow: hidden;
         background: beige;
         color: #000;
+        box-shadow:10px 10px black;
     }
 
     .back-side{
@@ -97,10 +103,15 @@
         border-radius: 10px;
         backface-visibility: hidden;
         overflow: hidden;
-        background: black;
-        color: white;
+        background: rgb(161, 161, 129);
+        color:black;
         text-align: center;
         transform: rotateY(180deg);
+        box-shadow:10px 10px black;
+    }
+
+    .back-side p{
+        text-align: justify;
     }
 
     
