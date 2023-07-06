@@ -21,12 +21,16 @@
 	<div class="content">
 		<p>I love front-end just because <br>of the freedom it gives <br>you to make any design you want.</p>
 		<div class="button-container">
-			<button class="btn-projects">
-			  Check my latest work!
-			</button>
-			<button class="btn-about">
-			  About me
-			</button>
+			<a href="/projects">
+				<button class="btn-projects">
+					Check my latest work!
+				</button>
+			</a>
+			<a href="/about">
+				<button class="btn-about">
+					About me
+				</button>
+			</a>
 		  </div>		  
 	</div>
 	<div class="box-content">
