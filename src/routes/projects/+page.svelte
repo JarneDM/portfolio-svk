@@ -17,7 +17,7 @@
                 <h1 style="font-size: 3em; margin-top: 0.5em; color:black;">Quote generator</h1>
                 <hr style="background-color: black; height:2px;">
                 <p style="font-size: larger; font-family:monospace;">
-                    The quote generator generates quotes like you guessed. <br><br>The quotes are mostly from historical figures like Albert Einstein, Socrates, Van Gogh, ... <br>You can visit the quote generator by clicking <a style="color: white;" target="_blank" href="https://quote-generator-jarne.vercel.app/">here!</a>
+                    The quote generator generates quotes like you guessed. <br><br>The quotes are mostly from historical figures like Albert Einstein, Socrates, Van Gogh, ... <br>You can visit the quote generator by clicking <a target="_blank" href="https://quote-generator-jarne.vercel.app/">here!</a>
                 </p>
             </div>
         </div>
@@ -103,7 +103,6 @@
         border-radius: 10px;
         backface-visibility: hidden;
         overflow: hidden;
-        background: rgb(161, 161, 129);
         color:black;
         text-align: center;
         transform: rotateY(180deg);
@@ -112,6 +111,12 @@
 
     .back-side p{
         text-align: justify;
+        padding:10px;
+    }
+
+    .back-side a{
+        color: black;
+        font-style: italic;
     }
 
     
