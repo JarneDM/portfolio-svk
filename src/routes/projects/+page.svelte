@@ -23,20 +23,20 @@
         </div>
         <div class="project">
             <div class="front-side">
-                <h1 style="font-size: 3em; margin-top: 0.5em;">Front Side</h1>
+                <h1 style="font-size: 3em; margin-top: 0.5em;">Project 2</h1>
                 <hr style="background-color: black; height:2px;">
             </div>
             <div class="back-side">
-                <h1 style="color: white; font-size: larger;">Backs Side</h1>
+                <h1 style="color: white; font-size: larger;">Back Side</h1>
             </div>
         </div>
         <div class="project">
             <div class="front-side">
-                <h1 style="font-size: 3em; margin-top: 0.5em;">Front Side</h1>
-                <hr style="background-color: black; height:2px;">
+                <h1 style="font-size: 3em; margin-top: 0.5em;">Project 3</h1>
+                <hr style="background-color: black; height:2p">
             </div>
             <div class="back-side">
-                <h1 style="color: white; font-size: larger;">Backs Side</h1>
+                <h1 style="color: white; font-size: larger;">Back Side</h1>
             </div>
         </div>
     </div>
